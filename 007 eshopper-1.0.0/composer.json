@@ -1,0 +1,16 @@
+{
+    "name": "admin/anhlv27",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Admin\\Anhlv27\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vietanhweb9b",
+            "email": "vietanh2712003@gmail.com"
+        }
+    ],
+    "require": {}
+}
