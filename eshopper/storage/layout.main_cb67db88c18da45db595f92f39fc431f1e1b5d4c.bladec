@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <title>EShopper</title>
+ <meta content="width=device-width, initial-scale=1.0" name="viewport">
+ <meta content="Free HTML Templates" name="keywords">
+ <meta content="Free HTML Templates" name="description">
+ <?php echo $this->runChild('layout.style'); ?>
+</head>
+
+<body>
+ <!-- Topbar Start -->
+ <?php echo $this->runChild('layout.topbar'); ?>
+ <!-- Topbar End -->
+ <?php /* home */ ?>
+ <?php echo $this->yieldContent('home'); ?>
+ <?php /* end home */ ?>
+ <!-- Footer Start -->
+ <?php echo $this->runChild('layout.footer'); ?>
+ <!-- Footer End -->
+ <!-- Back to Top -->
+ <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+ <!-- JavaScript Libraries -->
+ <?php echo $this->runChild('layout.script'); ?>
+</body>
+</html>

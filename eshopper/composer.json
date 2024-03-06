@@ -1,0 +1,20 @@
+{
+    "name": "admin/anhlv27",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vietanhweb9b",
+            "email": "vietanh2712003@gmail.com"
+        }
+    ],
+    "require": {
+        "eftec/bladeone": "^4.12",
+        "illuminate/events": "^10.46",
+        "phroute/phroute": "^2.2"
+    }
+}
