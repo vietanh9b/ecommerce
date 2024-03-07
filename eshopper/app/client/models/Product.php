@@ -1,5 +1,6 @@
 <?php
-namespace App\Models;
+namespace App\Client\Models;
+use App\Shared\BaseModel;
 class Product extends BaseModel{
     protected $table="product";
         public function getList(){

@@ -2,7 +2,7 @@
 
 use Phroute\Phroute\RouteCollector;
 use Phroute\Phroute\Dispatcher;
-use App\Controllers\ProductController;
+use App\Client\Controllers\ProductController;
 
 $url = !isset($_GET['url']) ? "/" : $_GET['url'];
 

@@ -1,5 +1,5 @@
 <?php
-namespace App\Models;
+namespace App\Shared;
 use PDO;
 
 class BaseModel

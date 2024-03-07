@@ -1,6 +1,7 @@
 <?php
-namespace App\Controllers;
-use App\Models\Product;
+namespace App\Client\Controllers;
+use App\Client\Models\Product;
+use App\Shared\BaseController;
 class ProductController extends BaseController{
     protected $product;
     public function __construct()
