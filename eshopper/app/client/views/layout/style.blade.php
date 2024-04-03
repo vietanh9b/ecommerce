@@ -1,5 +1,5 @@
 <!-- Favicon -->
-<link href="{{BASE_URL.'public/img/user.jpg'}}" rel="icon">
+<link href="{{BASE_URL.'public/img/vendor-1.jpg'}}" rel="icon">
 
 <!-- Google Web Fonts -->
 <link rel="preconnect" href="https://fonts.gstatic.com">

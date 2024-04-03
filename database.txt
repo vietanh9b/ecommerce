@@ -1,0 +1,28 @@
+1) Bảng role
+    - id: int -> Khóa chính tự tăng
+    - name: string(varchar) -20 ký tự
+2) Bảng user
+    - id: int -> Khóa chính tự tăng
+    - fullname -> string -> 50 ký tự
+    - email -> string 150 ký tự
+    - phone_number -> string -> 20 ký tự
+    - address -> string ->200 ký tự
+    - password -> string ->md5 -> 32 ký tự -> chính xác
+    - role_id -> int -> foreign key -> role (id)
+3) Bảng danh mục -> Category
+    - id: int -> Khóa tự tăng
+    - name: string -> 100 ký tự
+4) Bảng sản phẩm -> Product
+    - id: int -> Khóa tự tăng
+    - category_id -> int -> foreign key -> category (id)
+    - title -> string (350)
+    - price: int
+    - discount: int
+    - thumbnail: string -> 500 ký tự
+    - description: longtext
+    - created_at : datetime -> tạo bảng ghi
+    - updated_at : datetime -> sửa bảng ghi đó
+5) bảng galary
+    - id: int -> khóa tự tăng
+    - product_id -> int -> foreign key -> product (id)
+    - thumbnail: string -> 500 ký tự
